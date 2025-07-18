@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(128, 185, 4);
+}
+.nav > li{
+    float: left;
+}
+
+.tipo {
+    margin: auto;
+    width: 600px;
+}
+
+*{
+    padding: 1px;
+    margin: 1px;
+}
+ul,ol {
+    list-style: none;
+}
+.nav li a{
+    background-color: rgb(52, 8, 246);
+    color: #111110;
+    text-decoration: none;
+    padding: 10px 20px;
+    display:block;
+}
+.tipo{
+    background-color: rgb(247, 8, 8);
+    padding: 20px;
+    border-radius: 20px;
+   border: solid #4808f6;
+   border-width: 5px;
+   color: #f7fbff;
+   font-size: 30px;
+   text-align: center; 
+}
+.nav li a:hover{
+    background-color: rgb(24, 242, 4);
+}
+p {
+    text-align: justify;
+}
